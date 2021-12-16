@@ -1,0 +1,16 @@
+version: "3"
+services:
+
+ freeboard:
+  image: itsared/kongfree
+  container_name: myfreeboard
+  hostname: myfreeboard
+  restart: always
+
+  ports:
+   - 88:80
+
+#docker run --name myfreeboard -p 8080:80 -d tudorh/freeboard
+
+
+
